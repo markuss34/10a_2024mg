@@ -39,29 +39,29 @@ print("\n")
 
 #3.uzdevums
 
-cena = 90
+# cena = 90
 
-summa = 0
+# summa = 0
 
-nauda=[5,10,20,50]
+# nauda=[5,10,20,50]
 
-while summa<cena:
+# while summa<cena:
 
-    ievadita_moneta = int(input("Ievieto monētu 5, 10 , 20 vai 50 centi: "))
+#     ievadita_moneta = int(input("Ievieto monētu 5, 10 , 20 vai 50 centi: "))
 
-    if ievadita_moneta in nauda:
+#     if ievadita_moneta in nauda:
 
-        summa += ievadita_moneta
+#         summa += ievadita_moneta
 
-        print(f"Pašlaik ievietotā summa: {summa} centi.")
+#         print(f"Pašlaik ievietotā summa: {summa} centi.")
 
-    else: print("Nederīga moneta. Lūdzu ievadiet 5, 10, 20, 50 centus.")
+#     else: print("Nederīga moneta. Lūdzu ievadiet 5, 10, 20, 50 centus.")
 
-atlikums = summa - cena
+# atlikums = summa - cena
 
-if atlikums > 0:
+# if atlikums > 0:
 
-    print(f"Jāizdod {atlikums} centi.")
+#     print(f"Jāizdod {atlikums} centi.")
 
 
 #4.uzdevums
